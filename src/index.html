@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+    </style>        
+    <link rel="stylesheet" href="@@ENDERECOCSS">
+</head>
+<body>
+    <main>
+        <h1>Soteador</h1>
+        <form id="sorteador">
+            <div>
+                <label for="numeroMaximo">Número máximo</label>
+                <input required min="2" type="number" id="numeroMaximo" value="2" step="1">
+            </div>
+            <button type="submit">Sortear número</button>
+        </form>
+        <div class="resultado">
+            O número sorteado foi : <span id="resultado"></span>
+        </div>
+    </main>
+    <script src="@@ENDERECOJS"></script>
+</body>
+</html>
